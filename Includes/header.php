@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang=he>
 <head>
-    <link rel="stylesheet" type="text/css" href="/php project/CSS/header.css"/>
+    <link rel="stylesheet" type="text/css" href="/STORY-main/CSS/header.css"/>
     <header>
         <div id="logo">
-            <img id="storyImg" src="/php project/Images/storyLogo.png" class="center" alt= "logo">
+            <img id="storyImg" src="/STORY-main/Images/storyLogo.png" class="center" alt= "logo">
         </div>
         <nav>	
     	    <ul  class="topnav" id="myTopnav">
-                <li><a href="/php project/Includes/logout.php">התנתקות</a><li/>
-    	        <li><a href="/php project/Includes/cart.php">סל התשורות</a></li>
-				<li><a href="/php project/Includes/reviews.php">ביקורות</a></li>
+                <li><a href="/STORY-main/Includes/logout.php">התנתקות</a><li/>
+    	        <li><a href="/STORY-main/Includes/cart.php">סל התשורות</a></li>
+				<li><a href="/STORY-main/Includes/reviews.php">ביקורות</a></li>
     	        
         	    
         	    <ul class="navbar-nav ml-auto">
@@ -19,7 +19,7 @@
             	    </form>
         	    </ul>
         	    
-        	    <li><a href="/php project/Includes/stores.php">מאגר עסקים</a></li>
+        	    <li><a href="/STORY-main/Includes/stores.php">מאגר עסקים</a></li>
 				<?php 
 					$username= $session->username;
 					$connection = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
@@ -28,8 +28,8 @@
 					$row = $result->fetch_array();
 					$id = $row['id'];
 				?>
-        	    <li><a href="/php project/Includes/statistic.php?id=<?php echo $id ?>">סטטיסטיקה</a></li>
-        	    <li><a href="/php project/index.php">דף הבית</a></li>
+        	    <li><a href="/STORY-main/Includes/statistic.php?id=<?php echo $id ?>">סטטיסטיקה</a></li>
+        	    <li><a href="/STORY-main/index.php">דף הבית</a></li>
     			<?php
     				$username=$session->username;
     				$password=$session->password;
@@ -49,22 +49,22 @@
             <section class="collapse navbar-collapse" id="navbarSupportedContent15">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/php project/index.php">דף בית</a>
+                        <a class="nav-link" href="/STORY-main/index.php">דף בית</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  href="/php project/Includes/statistic.php?id=<?php echo $id ?>">סטטיסטיקה</a>
+                        <a class="nav-link"  href="/STORY-main/Includes/statistic.php?id=<?php echo $id ?>">סטטיסטיקה</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/php project/Includes/stores.php">מאגר עסקים</a>
+                        <a class="nav-link" href="/STORY-main/Includes/stores.php">מאגר עסקים</a>
                     </li>
     	            <li class="nav-item">
-                        <a class="nav-link" href="/php project/Includes/cart.php">סל תשורות</a>
+                        <a class="nav-link" href="/STORY-main/Includes/cart.php">סל תשורות</a>
                     </li>
 					<li class="nav-item">
-					<a class="nav-link" href="/php project/Includes/reviews.php">ביקורות</a>
+					<a class="nav-link" href="/STORY-main/Includes/reviews.php">ביקורות</a>
 					</li>
     	            <li class="nav-item">
-                        <a class="nav-link" href="/php project/Includes/logout.php">התנתקות</a>
+                        <a class="nav-link" href="/STORY-main/Includes/logout.php">התנתקות</a>
                     </li>
                 </ul>
             </section>

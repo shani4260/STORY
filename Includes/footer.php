@@ -2,7 +2,7 @@
 <html lang="he">
 <head>
     
-	<link rel="stylesheet" type="text/css" href="/php project/CSS/footer.css"/>
+	<link rel="stylesheet" type="text/css" href="/STORY-main/CSS/footer.css"/>
 </head>
 <body>
     <footer class="footer">
@@ -16,7 +16,7 @@
                             <p>נשמח לעדכן אתכם בכל מה שמעניין</p>
 							<input type="text" name="username" placeholder="שם" style="text-align:center"><br>
                             <input type="text" name="mail" placeholder="כתובת מייל" style="text-align:center"><br><br>
-    				        <input type="submit" name="submit" value="שלח" class="button1" src="/php project/Images/sendbutton.png" alt="Send"><br>
+    				        <input type="submit" name="submit" value="שלח" class="button1" src="/STORY-main/Images/sendbutton.png" alt="Send"><br>
     				   
 							<?php 
 								if( isset($_GET['mail'])){
@@ -31,9 +31,9 @@
 		
                     <div class="socialMedia">
     				    <br>
-    	                <a href="#" class="no"> <img class="icon1" src="/php project/Images/mail.png" title="לא פעיל"> </a>
-                        <a href="#" class="no"> <img class="icon1" src="/php project/Images/instagram.png" title=" לא פעיל"> </a>
-                        <a href="#" class="no"> <img class="icon2" src="/php project/Images/facebook.png" title="לא פעיל"> </a>
+    	                <a href="#" class="no"> <img class="icon1" src="/STORY-main/Images/mail.png" title="לא פעיל"> </a>
+                        <a href="#" class="no"> <img class="icon1" src="/STORY-main/Images/instagram.png" title=" לא פעיל"> </a>
+                        <a href="#" class="no"> <img class="icon2" src="/STORY-main/Images/facebook.png" title="לא פעיל"> </a>
     	            </div>
                 </section>
                       
