@@ -1,0 +1,93 @@
+footer{
+	background-color: #E7E0EE;
+	text-align:right;
+}
+
+.leftFooter{
+	text-align:center;
+	background-color:#F5F1F8;
+	border-radius:12%;
+	color:#6F5986;
+	margin-top:10px;
+	direction:rtl;
+}
+
+#contactFormEmail{
+	text-align:right;
+}
+
+.no{
+    cursor: not-allowed;
+}
+
+#sendButtonImg{
+	width:60px;
+	height:50px;
+}
+
+.socialMedia{
+	text-align:center;
+}
+
+.socialMedia a{
+     text-decoration:none;
+}
+
+.footer a{
+	color:#8C63B8;
+}
+
+.icon1{
+	width: 42px;
+	height: 42px;
+}
+
+.icon2{
+	width: 45px;
+	height: 45px;
+}
+
+.headerAboutUs{
+	color:#6F5986;
+}
+
+.footer ul{
+    list-style-type: none;	
+}
+
+.footer li::after{
+	content: "\00BB"; 
+	color:#8C63B8;
+}
+
+.footer li:hover{
+	margin-right:10px;
+}
+
+.aboutUs:hover{
+	color:#8C63B8;
+	margin-right:10px;
+}
+
+.rights{
+    border-top:1px solid white;
+}
+
+.rights p{
+	text-align:center;
+}
+.button1{
+    text-decoration: none;
+    background-color:#f0f2f5;
+    padding: 5px 5px 5px 5px;
+    color: black;
+    border: 1px solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:12px;
+    font-size:18px;
+    width:80px;
+    height:34px;
+    margin-bottom:10px;
+}

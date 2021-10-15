@@ -1,0 +1,193 @@
+*{
+    display:border-box;
+    padding:0px;
+    font-family: Calibri Light;
+	margin:0px;
+}
+
+.cartTitle h1 {
+    text-align: center;
+    font-size: 31px;
+    padding: 40px 0;
+    margin: 0 0 30px 0;
+    background: #F5F1F8;
+}
+
+#cart{
+    display:block;
+    overflow:auto;
+    width:80%;
+    margin:auto;
+}
+
+.product 
+{
+    margin: 20px 0;
+    width: 100%;
+    height: 195px;     
+}
+
+.product header img{
+    float: right;
+    width: 22%;
+    height: 180px;
+    margin: 0px 1% 20px 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    clear:both;
+}
+
+.content {	
+    height: 128px;
+    padding: 0 10px;
+}
+
+.content ,.quantity{
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 70%;
+    float: left;
+    margin-left: 24px;
+}
+
+@media screen and (max-width: 800px)
+{
+    .product header img {
+        display:none;
+    }
+	.content, .quantity{
+		width:92%;
+	}
+}
+
+.content h1 {
+    color: #53b5aa;
+    font-size: 25px;
+    margin: 17px 0 20px 0;
+    text-align:right;
+}
+
+.content p {
+    text-align:right;
+}
+
+.quantity {
+    height: 50px;
+}
+
+.qt, .qt-plus, .qt-minus {
+    display: block;
+    float: left;
+}
+
+.qt {
+    font-size: 19px;
+    line-height: 50px;
+    width: 70px;
+    text-align: center;
+}
+
+.qt-plus, .qt-minus {
+    background: #fcfcfc;
+    font-size: 30px;
+    height: 100%;
+    padding: 0 10px;
+    line-height: 50px;
+}
+
+.qt-plus:hover, .qt-minus:hover {
+    background: #53b5aa;
+    color: #fff;
+    cursor: pointer;
+}
+
+.trash{
+	float:left;
+	margin-left: 20px;
+}
+
+.product article img{
+	width: 17px;
+	float:left;
+	position:relative;
+	clear:both;
+	margin-top: 10px;
+}
+
+.full-price {
+    background: #53b5aa;
+    color: #fff;
+    float: right;
+    font-size: 22px;
+    line-height: 48px;
+    margin: 0;
+    padding: 0 30px;
+}
+
+.price {
+    background: #fcfcfc;
+    color: #000;
+    float: right;
+    font-size: 15px;
+    line-height: 48px;
+    margin: 0;
+    padding: 0 30px;
+}
+
+.total{
+    background-color: #F5F1F8;
+    display:block;
+    overflow:auto;
+    width:85%;
+    margin:auto;
+    text-align:center;
+    direction:rtl;
+}
+
+.totalPrice{
+    float:right;
+    margin-top:20px;
+}
+
+.paymentMethod{
+    float:left;
+    margin-left:20px;
+}
+
+.paymentMethod h2{
+    border-style: none none solid none;
+}
+
+#imgInPayment{
+    display:block;
+}
+
+.pay1 , .pay2{
+    width: 60px;
+    height:60px;
+}
+
+.pay3{
+    width: 65px; 
+    height: 65px;
+}
+
+.checkoutBtn{
+    background-color: #BD9EC3;
+    padding:10px;
+    width:200px;
+    
+}
+
+.no{
+    cursor: not-allowed;
+}
+
+@media screen and (max-width: 800px)
+{
+    .price {
+        display:none;
+    }
+}
+

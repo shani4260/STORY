@@ -1,0 +1,15 @@
+*{
+    display:border-box;
+    padding:0px;
+    font-family: Calibri Light;
+	margin:0px;
+}
+
+#countDown {
+    clear:both;
+    direction:rtl;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    color:#233067 ;
+}

@@ -1,0 +1,207 @@
+*{
+    display:border-box;
+    padding:0px;
+    font-family: Calibri Light;
+	margin:0px;
+}
+
+main{
+	width:50%;
+	float:right;
+	text-align:center;
+    margin-right: 100px;
+}
+
+section{
+	width:100%;
+	align-items:center;
+	justify-content:center;
+	overflow:auto;
+}
+
+
+.storelogo{
+	display:inline;	
+	width:300px;
+}
+
+#storeImg{
+	height:120px;
+	width:250px;
+}
+
+#barchart{
+	width:500px;
+	margin-left:700px; 
+	font-size: 25px;
+}
+
+#barchart p{margin-right:0px;}
+
+.bar{
+    height:10px;
+    width:90%;
+	margin:auto;
+	margin-top:5px;
+}
+
+#one{
+    background: rgb(203,217,207);
+    background: linear-gradient(90deg, rgba(203,217,207,1) 30%, rgba(37,181,66,0.9756945014333859) 30%);
+}
+#two{
+    background: rgb(203,217,207);
+    background: linear-gradient(90deg, rgba(203,217,207,1) 25%, rgba(37,181,66,0.9756945014333859) 25%);
+}	
+#three{
+    background: rgb(203,217,207);
+    background: linear-gradient(90deg, rgba(203,217,207,1) 8%, rgba(37,181,66,0.9756945014333859) 8%);
+}
+#four{
+    background: rgb(203,217,207);
+    background: linear-gradient(90deg, rgba(203,217,207,1) 40%, rgba(37,181,66,0.9756945014333859) 40%);
+}
+
+#ten{
+    background: rgb(203,217,207);
+    background: linear-gradient(90deg, rgba(203,217,207,1) 80%, rgba(37,181,66,0.9756945014333859) 80%);	
+}
+
+#thirteen{
+    background: rgb(203,217,207);
+    background: linear-gradient(90deg, rgba(203,217,207,1) 53%, rgba(37,181,66,1) 53%);
+}
+
+.stats{
+    display:block;
+    font-size:80%;
+    text-align:center;
+}
+.col{
+	text-align: center;
+}
+.stats .col{
+    margin-top:10px;
+    display:inline-block;
+    width:33%;
+    float:right;
+}
+.stats .col span.small{
+    font-size:80%;
+    color:grey;
+}
+
+.content{
+    font-size: 23px;
+	display:block;
+}
+
+.content p{
+	direction:rtl;
+}
+
+#videoStore{
+    width:80%;
+}
+aside{
+	float:left;
+	width:30%;
+    margin-left: 3%;
+}
+
+.gift{
+	border: 2px solid #ccc;
+	max-width: 70%;
+	flex: 18%;
+    padding:10px;
+    border-radius:10px;
+    overflow:hidden;
+	margin-left:70px;
+	margin-bottom:20px;
+	direction:rtl;
+}
+
+.gift:hover {
+	background:#BCB9DD;
+	color:#ffffff;
+	border:1px solid #ffffff;
+}
+
+.gift h4 {
+	text-align: center; 
+}
+.gift p{
+    color:black;
+    text-align:center;
+	margin-bottom:5px;
+}
+
+.priceForGift{
+    border: 3px solid #ccc;
+	flex: 18%;
+    padding:10px;
+	border-radius:10px;
+    overflow:hidden;
+	background-color:#E7E0EE;
+	direction:rtl;
+	margin-bottom:10px;
+}
+.priceForGift h5{
+    float:right;
+}
+
+.priceForGift h3{
+    text-align:center;
+}
+
+.giftTitle{
+    float:right;
+    min-width:30%;
+    font-size:1.1rem;
+}
+
+.quantityOfGifts, .selectGift{
+    float:right;
+}
+
+.quantityOfGifts{
+    width:40px;
+}
+    
+.myButton {
+	background-color:#f1f0f2;
+	border-radius:8px;
+	display:block;
+	font-size:17px;
+	padding:8px;
+	margin:auto;
+	margin-bottom:4px;
+}
+
+.myButton:active {
+	top:1px;
+}
+
+
+.price{
+    float:right;
+}
+
+#clear{
+    clear:both;
+}
+
+@media screen and (max-width: 1100px){
+	main{
+		width:80%;
+
+	}
+	
+	aside{
+		width:70%;
+		margin-left:20%;
+        margin-right:20%;
+
+	}
+}
+

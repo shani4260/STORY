@@ -1,0 +1,78 @@
+*{
+    display:border-box;
+    padding:0px;
+    font-family: Calibri Light;
+	margin:0px;
+}
+
+#logo{
+    background:#BCB9DD;
+    padding:5px;
+	display:block;
+    margin:auto;
+}
+
+#storyImg{
+	height:90px;
+	width:300px;
+	display:block;
+    margin:auto;
+}
+
+.error {
+    color: red;
+}
+
+.lableForm{
+    display: block;
+}
+
+lable p{
+    width: 30%;
+}
+
+.main_section{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#regForm{
+	direction:rtl;
+	text-align:center;
+	background-color:#F2F2F2;
+	width:50%;
+	display: block;
+	margin:auto;
+	border-radius:10px;
+	padding:20px;
+}
+
+.button, .button2{
+    text-decoration: none;
+    background-color:#E7E0EE;
+    color: black;
+    border: 1px solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:12px;
+    font-size:18px;
+    width:69px;
+    height:34px;
+    margin-bottom:10px;
+    font-size: 17px;
+    border-radius: 30%;
+}
+
+.button2 {
+    padding: 2px;
+}
+
+@media screen and (min-width: 800px){
+	#hamburger{display:none;}
+}
+
+@media screen and (max-width: 800px){
+	#myTopnav{display:none;}
+}
+
